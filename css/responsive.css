@@ -1,0 +1,18 @@
+/* mobile device */
+@media screen and (max-width:500px) {
+    .nav-hamburger-menu {
+        display: block;
+    }
+
+    .nav-menubtn-container {
+        display: none;
+    }
+
+    .banner-main {
+        flex-direction: column;
+    }
+
+    .banner-childs {
+        width: 100%;
+    }
+}
