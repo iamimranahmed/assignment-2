@@ -92,3 +92,59 @@ body {
 }
 
 /* banner css end */
+
+/* meet our team section css start */
+.team-content-heading {
+    text-align: center;
+}
+
+.our-team-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgb(185, 185, 185);
+    border-radius: 10px;
+}
+
+.card {
+    min-height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+/* meet our team section css end */
+
+/* footer section css start */
+.footer-section {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.all-rights {
+    text-align: center;
+}
+
+/* footer section css end */
