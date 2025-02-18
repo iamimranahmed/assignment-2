@@ -20,4 +20,34 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
+
+    .habits-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+
+    }
+
+    .section-title {
+        max-width: 350px;
+        text-align: center;
+
+    }
+
+    .footer-content {
+
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 350px;
+        gap: 10px;
+    }
+
+    .banner-section2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-section2-childs {
+        width: 100%;
+
+    }
 }

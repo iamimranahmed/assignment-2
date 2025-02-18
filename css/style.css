@@ -12,6 +12,10 @@ body {
     color: #E6533C;
 }
 
+.text-light-gray {
+    /* color: #FFFFFF80; */
+}
+
 /* navbar css start */
 .navbar-wrapper {
     /* background-color: #111111; */
@@ -24,6 +28,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    border: 2px solid green;
 }
 
 .nav-menu-btn {
@@ -40,8 +45,7 @@ body {
 .main-content {
     max-width: 1200px;
     margin: 0 auto;
-    /* min-height: 400px; */
-    border: 2px solid tomato;
+    height: 500px;
 }
 
 .banner-main {
@@ -93,8 +97,66 @@ body {
 
 /* banner css end */
 
+/* change your habit section css start */
+.section-title {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.habits-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    justify-items: center;
+}
+
+.habit-card {
+    gap: 10px;
+    width: 240px;
+    height: 270px;
+    /* background-color: black; */
+}
+
+.habit-card img {
+    border-radius: 50%;
+}
+
+/* change your habit section css end */
+
+/* banner section_2 start */
+.banner-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #222222d5;
+}
+
+.banner-section2-childs {
+    width: 45%;
+
+}
+
+.banner-section2-childs img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.banner-btn2 {
+    padding: 10px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* banner section_2 end */
+
 /* meet our team section css start */
 .team-content-heading {
+    max-width: 600px;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -130,13 +192,18 @@ body {
 
 /* footer section css start */
 .footer-section {
+    max-width: 1000px;
+    margin: 50px auto;
     background: rgba(255, 255, 255, 0.1);
+    /* border: 2px solid green; */
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-decoration: none;
+    gap: 10px;
+    /* justify-items: center; */
 }
 
 ul {
