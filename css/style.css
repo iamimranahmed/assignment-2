@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Satisfy&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,8 @@
 }
 
 body {
-    /* background-color: #111111; */
+    background-color: #111111;
+
 }
 
 .primary-btn-color {
@@ -13,7 +16,11 @@ body {
 }
 
 .text-light-gray {
-    /* color: #FFFFFF80; */
+    color: #FFFFFF80;
+}
+
+.primary-text-color {
+    color: white;
 }
 
 /* navbar css start */
@@ -22,13 +29,11 @@ body {
 }
 
 .navbar-main {
-    border: 1px solid tomato;
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid green;
 }
 
 .nav-menu-btn {
@@ -59,6 +64,7 @@ body {
 .banner-childs {
     width: 50%;
     position: relative;
+
 }
 
 .banner-childs img {
@@ -66,11 +72,17 @@ body {
     border-radius: 10px;
 }
 
+.italic-font {
+    font-family: "Satisfy", serif;
+}
+
 .banner-btn {
     padding: 10px;
     background-color: transparent;
+    color: white;
     border-radius: 10px;
     margin-top: 10px;
+
 }
 
 .video-tag {
@@ -146,9 +158,11 @@ body {
 .banner-btn2 {
     padding: 10px;
     width: 150px;
-    background-color: transparent;
+    color: white;
+    background-color: #E6533C;
     border-radius: 10px;
     margin-top: 10px;
+    border: none;
 }
 
 /* banner section_2 end */
@@ -192,10 +206,11 @@ body {
 
 /* footer section css start */
 .footer-section {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 50px auto;
     background: rgba(255, 255, 255, 0.1);
-    /* border: 2px solid green; */
+    padding: 20px;
+
 }
 
 .footer-content {
@@ -203,7 +218,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     text-decoration: none;
     gap: 10px;
-    /* justify-items: center; */
+    padding: 20px;
 }
 
 ul {
@@ -212,6 +227,9 @@ ul {
 
 .all-rights {
     text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
 }
 
 /* footer section css end */
